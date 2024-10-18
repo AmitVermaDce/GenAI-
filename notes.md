@@ -110,7 +110,19 @@ What is the difference between Legacy LangChain and  Langchain expression langua
 - Output Parser
 
 
+# prompt: Programming language for LLM to perform communication
+# Prompt Template: 
+    > Tell me about the history of ....India....
+    > Tell me about the history of ....England...
+    > Tell me about the history of ....Europe....
 
+    So instead of repeating same question we use prompt template
+    > Tell me about the history of {variable}
+
+
+# Prompts Engineering
+1. Zero shot prompting
+2. few-shot prompting
 
 
 
