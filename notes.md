@@ -125,4 +125,32 @@ What is the difference between Legacy LangChain and  Langchain expression langua
 2. few-shot prompting
 
 
+# Agenda for Day-3
+1. Data Loader: How to work with custom data
+2. Introduction to RAG - Retrieval Augumented Generation
+3. RAG Components: 
+    - Splitter
+    - Embeddings
+    - Vector store
+    - Retriever
+    - Top K
+
+# Agenda for Day-4
+- RAG with LCEL(LangChain Expression Language)
+
+
+# Intro to RAG
+Load large data assets and then ask the LLM questions about it.
+
+# What if the loaded data is too large? We will use RAG.
+When you load a document, you end up with strings. Sometimes the string  will be too large to fit into the context window.
+In those occasions we will use RAG technique:
+- Split document in small chunks
+- Transform text chunks in numeric chunks(embeddings)
+- Load embeddings to a vector database(aka vector store)
+- Load question and retrieve the most relevant embeddings to respond it. 
+- Send the embeddings to the LLM to format the response properly.
+
+
+
 
